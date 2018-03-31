@@ -10,7 +10,7 @@ function [i,s,phis,ds,dphi,S] = myParabola( phi,a,b,epsilon,delta )
 %     S是向量，其第i个分量是i次迭代值s0
 
 %例子：>> phi=@(x) 3*x^2-2*tan(x)
-%     >>function [i,s,phis,ds,dphi,S] = myParabola(phi,0,1,1e-4,1e-5)
+%     >> [i,s,phis,ds,dphi,S] = myParabola(phi,0,1,1e-4,1e-5)
 
 %如果运行出现错误，matlab会自动停在出错的那行，并且保存所有相关变量
 dbstop if error
