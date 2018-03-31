@@ -1,6 +1,6 @@
 function [i,s,phis,ds,dphi,G] = myGolds(phi,a,b,epsilon,delta)
 
-%功能：黄金分割法精确线性搜索
+%功能：黄金分割法精确线搜索
 %输入：phi是目标函数，
 %     a，b是搜索区间的两个端点，
 %     epsilon和delta分别是自变量和函数值的容许误差
