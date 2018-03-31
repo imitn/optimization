@@ -10,7 +10,7 @@ function [i,s,phis,ds,dphi,G] = myGolds(phi,a,b,epsilon,delta)
 %     G是i乘4大小的矩阵，其第i行分别是a，p，q，b的第i次迭代值[ai,pi,qi,bi]
 
 %例子：>> phi=@(x) 3*x^2-2*tan(x)
-%     >>function [i,s,phis,ds,dphi,G] = myGolds(phi,0,1,1e-4,1e-5)
+%     >> function [i,s,phis,ds,dphi,G] = myGolds(phi,0,1,1e-4,1e-5)
 
 %如果运行出现错误，matlab会自动停在出错的那行，并且保存所有相关变量
 dbstop if error
